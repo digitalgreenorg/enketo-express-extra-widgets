@@ -12,6 +12,7 @@ RUN sed -i '/extraheader = AUTHORIZATION/d' .git/config
 
 RUN npm install https://github.com/kobotoolbox/enketo-image-customization-widget.git
 RUN npm install https://github.com/kobotoolbox/enketo-literacy-test-widget.git
+RUN npm install https://github.com/digitalgreenorg/enketo-ethiopian-calendar.git
 
 # Avoid problems like like:
 #   Error: Cannot find module 'vex-dialog-enketo' from '/srv/src/enketo_express/public/js/src/module'
